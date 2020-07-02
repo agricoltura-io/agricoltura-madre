@@ -74,7 +74,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 4050 7700 4050
 $Sheet
-S 1250 2300 1850 2500
+S 1650 1700 1850 2500
 U 5EFE97F6
 F0 "4x UART SPI Bridge" 50
 F1 "SPI_UART_Bridge.sch" 50

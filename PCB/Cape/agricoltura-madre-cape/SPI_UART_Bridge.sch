@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,40 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L AVR-KiCAD-Lib-ICs:MAX14830ETM+ U?
+U 1 1 5EFE34A1
+P 4000 1150
+F 0 "U?" H 4500 1415 50  0000 C CNN
+F 1 "MAX14830ETM+" H 4050 1250 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-ICs:MAX14830ETM&plus_" H 3800 1050 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14830.pdf" H 3900 1150 50  0001 C CNN
+F 4 "13.61" H 4100 1400 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 4200 1500 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 4300 1600 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 4400 1700 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 4500 1800 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Maxim Integrated" H 4600 1900 50  0001 C CNN "MFR"
+F 10 "MAX14830ETM+" H 4700 2000 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 4800 2100 50  0001 C CNN "Vendor"
+F 12 "MAX14830ETM+-ND" H 4900 2200 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 5000 2300 50  0001 C CNN "Designer"
+F 14 "*" H 5100 2400 50  0001 C CNN "Height"
+F 15 "7/1/2020" H 6200 3500 50  0001 C CNN "Date Created"
+F 16 "7/1/2020" H 5200 2500 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 5300 2600 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 5400 2700 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 5500 2800 50  0001 C CNN "Mounting"
+F 20 "49" H 5600 2900 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 5700 3000 50  0001 C CNN "Status"
+F 22 "*" H 5800 3100 50  0001 C CNN "Tolerance"
+F 23 "IC" H 5900 3200 50  0001 C CNN "Type"
+F 24 "1.71V ~ 3.6V" H 6000 3300 50  0001 C CNN "Voltage"
+F 25 "QFN48" H 6100 3450 50  0001 C CNN "Package"
+F 26 "UART IC 4, QUART Channel RS232, RS485 128 Byte 48-TQFN (7x7)" H 6400 3750 50  0001 C CNN "Description"
+F 27 "MAX14830ETM+" H 4500 1324 50  0000 C CNN "_Value_"
+F 28 "*" H 6400 3750 50  0001 C CNN "Management_ID"
+	1    4000 1150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
