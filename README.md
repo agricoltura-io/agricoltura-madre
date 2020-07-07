@@ -5,9 +5,9 @@ Quick Specs:
 
 Beaglebone Green Based Version - Cape
 - Seeedstudio Beaglebone Green
-- 4x RS485 ports
+- 2x RS485 ports
 - Sub 1GHZ wirless modem with SMA Antenna Connector
-- 2.4GHZ wireless model with SMA Antenna connector, supporting all 2.4G types
+- 2.4GHZ wireless modem with SMA Antenna connector, supporting all 2.4G types
 - WiFi modem with SMA antenna connector
 - 1x USB 2.0 ports
 - USB serial monitor connection
@@ -24,7 +24,10 @@ Beaglebone SiP Based Version
 - Ethernet
 
 Raspberry Pi 4 based version:
-- 4x RS485 ports
+- 2x RS485 ports
 - Sub 1GHZ wirless modem with SMA Antenna Connector
 - 2.4GHZ wireless model with SMA Antenna connector, supporting all 2.4G types
-- WiFi modem with SMA antenna connector
+- Integrated WiFi (RPi4)
+- USB ports (RPi4)
+- Ethernet
+- PoE or 24VAC Power 
