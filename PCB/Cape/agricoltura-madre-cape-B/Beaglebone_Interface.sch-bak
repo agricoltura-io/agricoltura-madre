@@ -1,0 +1,308 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GNDD #PWR?
+U 1 1 5EFF694C
+P 4600 5050
+F 0 "#PWR?" H 4600 4800 50  0001 C CNN
+F 1 "GNDD" H 4600 4900 50  0000 C CNN
+F 2 "" H 4600 5050 60  0000 C CNN
+F 3 "" H 4600 5050 60  0000 C CNN
+	1    4600 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4650 5000 4650
+Wire Wire Line
+	5000 4650 5000 4750
+Wire Wire Line
+	5000 4950 4600 4950
+Wire Wire Line
+	4200 4950 4200 4750
+Wire Wire Line
+	4200 4650 4350 4650
+Wire Wire Line
+	4350 4750 4200 4750
+Connection ~ 4200 4750
+Wire Wire Line
+	4850 4750 5000 4750
+Connection ~ 5000 4750
+Wire Wire Line
+	4600 5050 4600 4950
+Connection ~ 4600 4950
+$Comp
+L power:GNDD #PWR?
+U 1 1 5EFF695D
+P 5650 2550
+F 0 "#PWR?" H 5650 2300 50  0001 C CNN
+F 1 "GNDD" H 5650 2400 50  0000 C CNN
+F 2 "" H 5650 2550 60  0000 C CNN
+F 3 "" H 5650 2550 60  0000 C CNN
+	1    5650 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5EFF6963
+P 3550 2550
+F 0 "#PWR?" H 3550 2300 50  0001 C CNN
+F 1 "GNDD" H 3550 2400 50  0000 C CNN
+F 2 "" H 3550 2550 60  0000 C CNN
+F 3 "" H 3550 2550 60  0000 C CNN
+	1    3550 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5EFF6969
+P 6750 2550
+F 0 "#PWR?" H 6750 2300 50  0001 C CNN
+F 1 "GNDD" H 6750 2400 50  0000 C CNN
+F 2 "" H 6750 2550 60  0000 C CNN
+F 3 "" H 6750 2550 60  0000 C CNN
+	1    6750 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5EFF696F
+P 7750 2550
+F 0 "#PWR?" H 7750 2300 50  0001 C CNN
+F 1 "GNDD" H 7750 2400 50  0000 C CNN
+F 2 "" H 7750 2550 60  0000 C CNN
+F 3 "" H 7750 2550 60  0000 C CNN
+	1    7750 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5EFF6975
+P 5000 2350
+F 0 "#PWR?" H 5000 2200 50  0001 C CNN
+F 1 "+3V3" H 5000 2490 50  0000 C CNN
+F 2 "" H 5000 2350 60  0000 C CNN
+F 3 "" H 5000 2350 60  0000 C CNN
+	1    5000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5EFF697B
+P 5200 2350
+F 0 "#PWR?" H 5200 2200 50  0001 C CNN
+F 1 "+5V" H 5200 2490 50  0000 C CNN
+F 2 "" H 5200 2350 60  0000 C CNN
+F 3 "" H 5200 2350 60  0000 C CNN
+	1    5200 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2650 5000 2650
+Wire Wire Line
+	5000 2650 5000 2350
+Wire Wire Line
+	4850 2750 5200 2750
+Wire Wire Line
+	5200 2750 5200 2350
+Wire Wire Line
+	5450 2350 5450 2850
+Wire Wire Line
+	5450 2850 4850 2850
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5EFF6987
+P 4200 2350
+F 0 "#PWR?" H 4200 2200 50  0001 C CNN
+F 1 "+3V3" H 4200 2490 50  0000 C CNN
+F 2 "" H 4200 2350 60  0000 C CNN
+F 3 "" H 4200 2350 60  0000 C CNN
+	1    4200 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5EFF698D
+P 4000 2350
+F 0 "#PWR?" H 4000 2200 50  0001 C CNN
+F 1 "+5V" H 4000 2490 50  0000 C CNN
+F 2 "" H 4000 2350 60  0000 C CNN
+F 3 "" H 4000 2350 60  0000 C CNN
+	1    4000 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2650 4200 2650
+Wire Wire Line
+	4200 2650 4200 2350
+Wire Wire Line
+	4350 2750 4000 2750
+Wire Wire Line
+	4000 2750 4000 2350
+Wire Wire Line
+	4350 2850 3750 2850
+Wire Wire Line
+	3750 2850 3750 2350
+Wire Wire Line
+	4850 2550 5650 2550
+Wire Wire Line
+	4350 2550 3550 2550
+Wire Wire Line
+	6750 2550 7000 2550
+Wire Wire Line
+	7500 2550 7750 2550
+$Comp
+L pwr_BeagleBone:SYS_5V #PWR?
+U 1 1 5EFF699D
+P 5450 2350
+F 0 "#PWR?" H 5450 2200 50  0001 C CNN
+F 1 "SYS_5V" H 5450 2490 50  0000 C CNN
+F 2 "" H 5450 2350 60  0000 C CNN
+F 3 "" H 5450 2350 60  0000 C CNN
+	1    5450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pwr_BeagleBone:SYS_5V #PWR?
+U 1 1 5EFF69A3
+P 3750 2350
+F 0 "#PWR?" H 3750 2200 50  0001 C CNN
+F 1 "SYS_5V" H 3750 2490 50  0000 C CNN
+F 2 "" H 3750 2350 60  0000 C CNN
+F 3 "" H 3750 2350 60  0000 C CNN
+	1    3750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pwr_BeagleBone:VDD_ADC #PWR?
+U 1 1 5EFF69A9
+P 5200 4000
+F 0 "#PWR?" H 5200 3850 50  0001 C CNN
+F 1 "VDD_ADC" H 5200 4140 50  0000 C CNN
+F 2 "" H 5200 4000 60  0000 C CNN
+F 3 "" H 5200 4000 60  0000 C CNN
+	1    5200 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4050 5200 4050
+Wire Wire Line
+	5200 4050 5200 4000
+$Comp
+L pwr_BeagleBone:GNDA_ADC #PWR?
+U 1 1 5EFF69B1
+P 5200 4150
+F 0 "#PWR?" H 5200 3900 50  0001 C CNN
+F 1 "GNDA_ADC" H 5200 4000 50  0000 C CNN
+F 2 "" H 5200 4150 60  0000 C CNN
+F 3 "" H 5200 4150 60  0000 C CNN
+	1    5200 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4850 4150 5200 4150
+Text GLabel 4950 2950 2    50   Input ~ 0
+SYS_RESETN
+Wire Wire Line
+	4850 2950 4950 2950
+Text GLabel 4250 2950 0    50   Input ~ 0
+PWR_BUT
+Wire Wire Line
+	4350 2950 4250 2950
+$Comp
+L Connector_Generic:Conn_02x23_Odd_Even P9
+U 1 1 5EFF69BC
+P 4550 3650
+F 0 "P9" H 4550 4850 50  0000 C CNN
+F 1 "BeagleBone_Black_Header" V 4600 3700 50  0000 C CNN
+F 2 "Socket_BeagleBone_Black:Socket_BeagleBone_Black" H 4550 2800 60  0001 C CNN
+F 3 "" H 4550 2800 60  0000 C CNN
+	1    4550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x23_Odd_Even P8
+U 1 1 5EFF69C2
+P 7200 3650
+F 0 "P8" H 7200 4850 50  0000 C CNN
+F 1 "BeagleBone_Black_Header" V 7250 3700 50  0000 C CNN
+F 2 "Socket_BeagleBone_Black:Socket_BeagleBone_Black" H 7200 2800 60  0001 C CNN
+F 3 "" H 7200 2800 60  0000 C CNN
+	1    7200 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4750 4200 4650
+Wire Wire Line
+	5000 4750 5000 4950
+Wire Wire Line
+	4600 4950 4200 4950
+Text HLabel 3450 3150 0    50   Input ~ 0
+RS485_UART_TX1
+Text HLabel 3450 3050 0    50   Input ~ 0
+RS485_UART_RX1
+Text HLabel 5100 3650 2    50   Input ~ 0
+RS485_UART_TX2
+Text HLabel 5100 3750 2    50   Input ~ 0
+RS485_UART_RX2
+Text HLabel 3450 3650 0    50   Input ~ 0
+RS485_DE2
+Text HLabel 5050 3050 2    50   Input ~ 0
+RS485_DE1
+Text HLabel 3450 3550 0    50   Input ~ 0
+RS485_SL_RATE2
+Text HLabel 5050 3350 2    50   Input ~ 0
+RS485_SL_RATE1
+Text HLabel 5050 3250 2    50   Input ~ 0
+RS485_TERM_EN1
+Text HLabel 5050 3150 2    50   Input ~ 0
+RS485_RE1
+Text HLabel 3450 3750 0    50   Input ~ 0
+RS485_RE2
+Text HLabel 3450 3450 0    50   Input ~ 0
+RS485_TERM_EN2
+Wire Wire Line
+	4350 3050 3450 3050
+Wire Wire Line
+	3450 3150 4350 3150
+Wire Wire Line
+	5050 3050 4850 3050
+Wire Wire Line
+	5050 3150 4850 3150
+Wire Wire Line
+	5050 3250 4850 3250
+Wire Wire Line
+	5050 3350 4850 3350
+Wire Wire Line
+	5100 3750 4850 3750
+Wire Wire Line
+	5100 3650 4850 3650
+Wire Wire Line
+	4350 3650 3450 3650
+Wire Wire Line
+	3450 3750 4350 3750
+Wire Wire Line
+	4350 3450 3450 3450
+Wire Wire Line
+	3450 3550 4350 3550
+Text HLabel 1150 3650 2    50   Input ~ 0
+SCLK
+Text HLabel 1150 3750 2    50   Input ~ 0
+MISO
+Text HLabel 1150 3850 2    50   Input ~ 0
+MOSI
+Text HLabel 1250 3550 2    50   Input ~ 0
+CS
+$EndSCHEMATC

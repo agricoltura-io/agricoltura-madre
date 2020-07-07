@@ -1,0 +1,845 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L growbox-KiCAD-Connectors:ESQ-102-34-L-D T5
+U 1 1 5EB2FFBB
+P 3950 7050
+F 0 "T5" H 4000 7100 50  0000 C CNN
+F 1 "ESQ-102-34-L-D" H 4300 6800 50  0000 C CNN
+F 2 "growbox-KiCAD-Connectors:ESQ-102-34-L-D" H 3600 7450 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/esq_th.pdf" H 3850 7150 50  0001 C CNN
+F 4 "1.62000" H 4050 7300 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 4150 7400 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 4250 7500 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 4350 7600 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 4450 7700 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Samtec Inc." H 4550 7800 50  0001 C CNN "MFR"
+F 10 "ESQ-102-34-L-D" H 4650 7900 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 4750 8000 50  0001 C CNN "Vendor"
+F 12 "ESQ-102-34-L-D-ND" H 4850 8100 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 4950 8200 50  0001 C CNN "Designer"
+F 14 "16.13mm" H 5050 8300 50  0001 C CNN "Height"
+F 15 "3/26/2020" H 6150 9400 50  0001 C CNN "Date Created"
+F 16 "3/26/2020" H 5150 8400 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 5250 8500 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 5350 8600 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 5450 8700 50  0001 C CNN "Mounting"
+F 20 "4" H 5550 8800 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 5650 8900 50  0001 C CNN "Status"
+F 22 "*" H 5750 9000 50  0001 C CNN "Tolerance"
+F 23 "Extended Heigh 2.54mm Header, Female" H 5850 9100 50  0001 C CNN "Type"
+F 24 "550VAC" H 5950 9200 50  0001 C CNN "Voltage"
+F 25 "2.54mm Spaced Header Standard" H 6050 9350 50  0001 C CNN "Package"
+F 26 "4 Position Elevated Socket Connector  Through Hole" H 6450 9750 50  0001 C CNN "Description"
+F 27 "ESQ-102-34-L-D" H 6250 9550 50  0001 C CNN "_Value_"
+F 28 "*" H 6350 9650 50  0001 C CNN "Management_ID"
+	1    3950 7050
+	-1   0    0    -1  
+$EndComp
+Text HLabel 1200 6850 0    50   Output ~ 0
+POE_VA1
+Text HLabel 1200 7100 0    50   Output ~ 0
+POE_VA2
+Text HLabel 1200 7450 0    50   Output ~ 0
+POE_VB1
+Text HLabel 1200 7200 0    50   Output ~ 0
+POE_VB2
+Wire Wire Line
+	3550 7100 1200 7100
+Wire Wire Line
+	1200 6850 4550 6850
+Wire Wire Line
+	4550 6850 4550 7100
+Wire Wire Line
+	4550 7100 4150 7100
+Wire Wire Line
+	4150 7200 4550 7200
+Wire Wire Line
+	4550 7200 4550 7450
+Wire Wire Line
+	4550 7450 1200 7450
+Wire Wire Line
+	3550 7200 1200 7200
+Text Notes 2300 6700 0    50   ~ 10
+PoE Signals From RPi4 PoE Header
+$Comp
+L growbox-KiCAD-Holes-Fasteners:2.7mm_NPTH H1
+U 1 1 5E8DA955
+P 1250 5300
+F 0 "H1" H 1478 5246 50  0000 L CNN
+F 1 "2.7mm_NPTH" H 1478 5155 50  0000 L CNN
+F 2 "growbox-KiCAD-Holes-PEMS-Standoffs:2.7mm_NPTH" H 1250 5300 50  0001 C CNN
+F 3 "" H 1250 5300 50  0001 C CNN
+F 4 "*" H 1350 5550 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 1450 5650 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 1550 5750 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 1650 5850 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 1750 5950 50  0001 C CNN "Cost QTY: 10000"
+F 9 "*" H 1850 6050 50  0001 C CNN "MFR"
+F 10 "*" H 1950 6150 50  0001 C CNN "MFR#"
+F 11 "*" H 2050 6250 50  0001 C CNN "Vendor"
+F 12 "*" H 2150 6350 50  0001 C CNN "Vendor #"
+F 13 "*" H 2250 6450 50  0001 C CNN "Designer"
+F 14 "*" H 2350 6550 50  0001 C CNN "Height"
+F 15 "*" H 3450 7650 50  0001 C CNN "Date Created"
+F 16 "*" H 2450 6650 50  0001 C CNN "Date Modified"
+F 17 "*" H 2550 6750 50  0001 C CNN "Lead-Free ?"
+F 18 "*" H 2650 6850 50  0001 C CNN "RoHS Levels"
+F 19 "*" H 2750 6950 50  0001 C CNN "Mounting"
+F 20 "*" H 2850 7050 50  0001 C CNN "Pin Count #"
+F 21 "*" H 2950 7150 50  0001 C CNN "Status"
+F 22 "*" H 3050 7250 50  0001 C CNN "Tolerance"
+F 23 "*" H 3150 7350 50  0001 C CNN "Type"
+F 24 "*" H 3250 7450 50  0001 C CNN "Voltage"
+F 25 "*" H 3350 7600 50  0001 C CNN "Package"
+F 26 "*" H 3550 7800 50  0001 C CNN "_Value_"
+F 27 "*" H 3650 7900 50  0001 C CNN "Management_ID"
+F 28 "*" H 3650 7900 50  0001 C CNN "Description"
+	1    1250 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L growbox-KiCAD-Holes-Fasteners:2.7mm_NPTH H2
+U 1 1 5E8E2E9A
+P 1250 5600
+F 0 "H2" H 1478 5546 50  0000 L CNN
+F 1 "2.7mm_NPTH" H 1478 5455 50  0000 L CNN
+F 2 "growbox-KiCAD-Holes-PEMS-Standoffs:2.7mm_NPTH" H 1250 5600 50  0001 C CNN
+F 3 "" H 1250 5600 50  0001 C CNN
+F 4 "*" H 1350 5850 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 1450 5950 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 1550 6050 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 1650 6150 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 1750 6250 50  0001 C CNN "Cost QTY: 10000"
+F 9 "*" H 1850 6350 50  0001 C CNN "MFR"
+F 10 "*" H 1950 6450 50  0001 C CNN "MFR#"
+F 11 "*" H 2050 6550 50  0001 C CNN "Vendor"
+F 12 "*" H 2150 6650 50  0001 C CNN "Vendor #"
+F 13 "*" H 2250 6750 50  0001 C CNN "Designer"
+F 14 "*" H 2350 6850 50  0001 C CNN "Height"
+F 15 "*" H 3450 7950 50  0001 C CNN "Date Created"
+F 16 "*" H 2450 6950 50  0001 C CNN "Date Modified"
+F 17 "*" H 2550 7050 50  0001 C CNN "Lead-Free ?"
+F 18 "*" H 2650 7150 50  0001 C CNN "RoHS Levels"
+F 19 "*" H 2750 7250 50  0001 C CNN "Mounting"
+F 20 "*" H 2850 7350 50  0001 C CNN "Pin Count #"
+F 21 "*" H 2950 7450 50  0001 C CNN "Status"
+F 22 "*" H 3050 7550 50  0001 C CNN "Tolerance"
+F 23 "*" H 3150 7650 50  0001 C CNN "Type"
+F 24 "*" H 3250 7750 50  0001 C CNN "Voltage"
+F 25 "*" H 3350 7900 50  0001 C CNN "Package"
+F 26 "*" H 3550 8100 50  0001 C CNN "_Value_"
+F 27 "*" H 3650 8200 50  0001 C CNN "Management_ID"
+F 28 "*" H 3650 8200 50  0001 C CNN "Description"
+	1    1250 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L growbox-KiCAD-Holes-Fasteners:2.7mm_NPTH H3
+U 1 1 5E8E3F0F
+P 2050 5300
+F 0 "H3" H 2278 5246 50  0000 L CNN
+F 1 "2.7mm_NPTH" H 2278 5155 50  0000 L CNN
+F 2 "growbox-KiCAD-Holes-PEMS-Standoffs:2.7mm_NPTH" H 2050 5300 50  0001 C CNN
+F 3 "" H 2050 5300 50  0001 C CNN
+F 4 "*" H 2150 5550 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 2250 5650 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 2350 5750 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 2450 5850 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 2550 5950 50  0001 C CNN "Cost QTY: 10000"
+F 9 "*" H 2650 6050 50  0001 C CNN "MFR"
+F 10 "*" H 2750 6150 50  0001 C CNN "MFR#"
+F 11 "*" H 2850 6250 50  0001 C CNN "Vendor"
+F 12 "*" H 2950 6350 50  0001 C CNN "Vendor #"
+F 13 "*" H 3050 6450 50  0001 C CNN "Designer"
+F 14 "*" H 3150 6550 50  0001 C CNN "Height"
+F 15 "*" H 4250 7650 50  0001 C CNN "Date Created"
+F 16 "*" H 3250 6650 50  0001 C CNN "Date Modified"
+F 17 "*" H 3350 6750 50  0001 C CNN "Lead-Free ?"
+F 18 "*" H 3450 6850 50  0001 C CNN "RoHS Levels"
+F 19 "*" H 3550 6950 50  0001 C CNN "Mounting"
+F 20 "*" H 3650 7050 50  0001 C CNN "Pin Count #"
+F 21 "*" H 3750 7150 50  0001 C CNN "Status"
+F 22 "*" H 3850 7250 50  0001 C CNN "Tolerance"
+F 23 "*" H 3950 7350 50  0001 C CNN "Type"
+F 24 "*" H 4050 7450 50  0001 C CNN "Voltage"
+F 25 "*" H 4150 7600 50  0001 C CNN "Package"
+F 26 "*" H 4350 7800 50  0001 C CNN "_Value_"
+F 27 "*" H 4450 7900 50  0001 C CNN "Management_ID"
+F 28 "*" H 4450 7900 50  0001 C CNN "Description"
+	1    2050 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L growbox-KiCAD-Holes-Fasteners:2.7mm_NPTH H4
+U 1 1 5E8E616C
+P 2050 5600
+F 0 "H4" H 2278 5546 50  0000 L CNN
+F 1 "2.7mm_NPTH" H 2278 5455 50  0000 L CNN
+F 2 "growbox-KiCAD-Holes-PEMS-Standoffs:2.7mm_NPTH" H 2050 5600 50  0001 C CNN
+F 3 "" H 2050 5600 50  0001 C CNN
+F 4 "*" H 2150 5850 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 2250 5950 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 2350 6050 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 2450 6150 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 2550 6250 50  0001 C CNN "Cost QTY: 10000"
+F 9 "*" H 2650 6350 50  0001 C CNN "MFR"
+F 10 "*" H 2750 6450 50  0001 C CNN "MFR#"
+F 11 "*" H 2850 6550 50  0001 C CNN "Vendor"
+F 12 "*" H 2950 6650 50  0001 C CNN "Vendor #"
+F 13 "*" H 3050 6750 50  0001 C CNN "Designer"
+F 14 "*" H 3150 6850 50  0001 C CNN "Height"
+F 15 "*" H 4250 7950 50  0001 C CNN "Date Created"
+F 16 "*" H 3250 6950 50  0001 C CNN "Date Modified"
+F 17 "*" H 3350 7050 50  0001 C CNN "Lead-Free ?"
+F 18 "*" H 3450 7150 50  0001 C CNN "RoHS Levels"
+F 19 "*" H 3550 7250 50  0001 C CNN "Mounting"
+F 20 "*" H 3650 7350 50  0001 C CNN "Pin Count #"
+F 21 "*" H 3750 7450 50  0001 C CNN "Status"
+F 22 "*" H 3850 7550 50  0001 C CNN "Tolerance"
+F 23 "*" H 3950 7650 50  0001 C CNN "Type"
+F 24 "*" H 4050 7750 50  0001 C CNN "Voltage"
+F 25 "*" H 4150 7900 50  0001 C CNN "Package"
+F 26 "*" H 4350 8100 50  0001 C CNN "_Value_"
+F 27 "*" H 4450 8200 50  0001 C CNN "Management_ID"
+F 28 "*" H 4450 8200 50  0001 C CNN "Description"
+	1    2050 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L growbox-KiCAD-Special:25mm_FAN M3
+U 1 1 5E8F7237
+P 2850 5300
+F 0 "M3" H 3378 5096 50  0000 L CNN
+F 1 "25mm_FAN" H 3050 4750 50  0001 C CNN
+F 2 "growbox-KiCAD-Special:25mm_FAN" H 2650 5300 50  0001 C CNN
+F 3 "" H 2850 5350 50  0001 C CNN
+F 4 "*" H 2950 5550 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 3050 5650 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 3150 5750 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 3250 5850 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 3350 5950 50  0001 C CNN "Cost QTY: 10000"
+F 9 "*" H 3450 6050 50  0001 C CNN "MFR"
+F 10 "*" H 3550 6150 50  0001 C CNN "MFR#"
+F 11 "*" H 3650 6250 50  0001 C CNN "Vendor"
+F 12 "*" H 3750 6350 50  0001 C CNN "Vendor #"
+F 13 "*" H 3850 6450 50  0001 C CNN "Designer"
+F 14 "*" H 3950 6550 50  0001 C CNN "Height"
+F 15 "*" H 5050 7650 50  0001 C CNN "Date Created"
+F 16 "*" H 4050 6650 50  0001 C CNN "Date Modified"
+F 17 "*" H 4150 6750 50  0001 C CNN "Lead-Free ?"
+F 18 "*" H 4250 6850 50  0001 C CNN "RoHS Levels"
+F 19 "*" H 4350 6950 50  0001 C CNN "Mounting"
+F 20 "*" H 4450 7050 50  0001 C CNN "Pin Count #"
+F 21 "*" H 4550 7150 50  0001 C CNN "Status"
+F 22 "*" H 4650 7250 50  0001 C CNN "Tolerance"
+F 23 "*" H 4750 7350 50  0001 C CNN "Type"
+F 24 "*" H 4850 7450 50  0001 C CNN "Voltage"
+F 25 "*" H 4950 7600 50  0001 C CNN "Package"
+F 26 "*" H 5250 7900 50  0001 C CNN "Description"
+F 27 "25mm Fan" H 3378 5005 50  0000 L CNN "_Value_"
+F 28 "*" H 5250 7900 50  0001 C CNN "Management_ID"
+	1    2850 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L growbox-KiCAD-Special:DummyPi M4
+U 1 1 5E8FAC06
+P 4950 5450
+F 0 "M4" H 5478 5246 50  0000 L CNN
+F 1 "DummyPi" H 5000 5650 50  0001 C CNN
+F 2 "growbox-KiCAD-Special:RPi4_SHAPE_3D" H 4750 5450 50  0001 C CNN
+F 3 "" H 4850 5550 50  0001 C CNN
+F 4 "*" H 5050 5700 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 5150 5800 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 5250 5900 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 5350 6000 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 5450 6100 50  0001 C CNN "Cost QTY: 10000"
+F 9 "*" H 5550 6200 50  0001 C CNN "MFR"
+F 10 "*" H 5650 6300 50  0001 C CNN "MFR#"
+F 11 "*" H 5750 6400 50  0001 C CNN "Vendor"
+F 12 "*" H 5850 6500 50  0001 C CNN "Vendor #"
+F 13 "*" H 5950 6600 50  0001 C CNN "Designer"
+F 14 "*" H 6050 6700 50  0001 C CNN "Height"
+F 15 "*" H 7150 7800 50  0001 C CNN "Date Created"
+F 16 "*" H 6150 6800 50  0001 C CNN "Date Modified"
+F 17 "*" H 6250 6900 50  0001 C CNN "Lead-Free ?"
+F 18 "*" H 6350 7000 50  0001 C CNN "RoHS Levels"
+F 19 "*" H 6450 7100 50  0001 C CNN "Mounting"
+F 20 "*" H 6550 7200 50  0001 C CNN "Pin Count #"
+F 21 "*" H 6650 7300 50  0001 C CNN "Status"
+F 22 "*" H 6750 7400 50  0001 C CNN "Tolerance"
+F 23 "*" H 6850 7500 50  0001 C CNN "Type"
+F 24 "*" H 6950 7600 50  0001 C CNN "Voltage"
+F 25 "*" H 7050 7750 50  0001 C CNN "Package"
+F 26 "*" H 7350 8050 50  0001 C CNN "Description"
+F 27 "Dummy RPi4" H 5478 5155 50  0000 L CNN "_Value_"
+F 28 "*" H 7350 8050 50  0001 C CNN "Management_ID"
+	1    4950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L growbox-KiCAD-Holes-Fasteners:2.7mm_NPTH H5
+U 1 1 5E8FCBF8
+P 1250 5900
+F 0 "H5" H 1478 5846 50  0000 L CNN
+F 1 "2.7mm_NPTH" H 1478 5755 50  0000 L CNN
+F 2 "growbox-KiCAD-Holes-PEMS-Standoffs:2.7mm_NPTH" H 1250 5900 50  0001 C CNN
+F 3 "" H 1250 5900 50  0001 C CNN
+F 4 "*" H 1350 6150 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 1450 6250 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 1550 6350 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 1650 6450 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 1750 6550 50  0001 C CNN "Cost QTY: 10000"
+F 9 "*" H 1850 6650 50  0001 C CNN "MFR"
+F 10 "*" H 1950 6750 50  0001 C CNN "MFR#"
+F 11 "*" H 2050 6850 50  0001 C CNN "Vendor"
+F 12 "*" H 2150 6950 50  0001 C CNN "Vendor #"
+F 13 "*" H 2250 7050 50  0001 C CNN "Designer"
+F 14 "*" H 2350 7150 50  0001 C CNN "Height"
+F 15 "*" H 3450 8250 50  0001 C CNN "Date Created"
+F 16 "*" H 2450 7250 50  0001 C CNN "Date Modified"
+F 17 "*" H 2550 7350 50  0001 C CNN "Lead-Free ?"
+F 18 "*" H 2650 7450 50  0001 C CNN "RoHS Levels"
+F 19 "*" H 2750 7550 50  0001 C CNN "Mounting"
+F 20 "*" H 2850 7650 50  0001 C CNN "Pin Count #"
+F 21 "*" H 2950 7750 50  0001 C CNN "Status"
+F 22 "*" H 3050 7850 50  0001 C CNN "Tolerance"
+F 23 "*" H 3150 7950 50  0001 C CNN "Type"
+F 24 "*" H 3250 8050 50  0001 C CNN "Voltage"
+F 25 "*" H 3350 8200 50  0001 C CNN "Package"
+F 26 "*" H 3550 8400 50  0001 C CNN "_Value_"
+F 27 "*" H 3650 8500 50  0001 C CNN "Management_ID"
+F 28 "*" H 3650 8500 50  0001 C CNN "Description"
+	1    1250 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L growbox-KiCAD-Holes-Fasteners:2.7mm_NPTH H6
+U 1 1 5E9686D0
+P 2050 5900
+F 0 "H6" H 2278 5846 50  0000 L CNN
+F 1 "2.7mm_NPTH" H 2278 5755 50  0000 L CNN
+F 2 "growbox-KiCAD-Holes-PEMS-Standoffs:2.7mm_NPTH" H 2050 5900 50  0001 C CNN
+F 3 "" H 2050 5900 50  0001 C CNN
+F 4 "*" H 2150 6150 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 2250 6250 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 2350 6350 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 2450 6450 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 2550 6550 50  0001 C CNN "Cost QTY: 10000"
+F 9 "*" H 2650 6650 50  0001 C CNN "MFR"
+F 10 "*" H 2750 6750 50  0001 C CNN "MFR#"
+F 11 "*" H 2850 6850 50  0001 C CNN "Vendor"
+F 12 "*" H 2950 6950 50  0001 C CNN "Vendor #"
+F 13 "*" H 3050 7050 50  0001 C CNN "Designer"
+F 14 "*" H 3150 7150 50  0001 C CNN "Height"
+F 15 "*" H 4250 8250 50  0001 C CNN "Date Created"
+F 16 "*" H 3250 7250 50  0001 C CNN "Date Modified"
+F 17 "*" H 3350 7350 50  0001 C CNN "Lead-Free ?"
+F 18 "*" H 3450 7450 50  0001 C CNN "RoHS Levels"
+F 19 "*" H 3550 7550 50  0001 C CNN "Mounting"
+F 20 "*" H 3650 7650 50  0001 C CNN "Pin Count #"
+F 21 "*" H 3750 7750 50  0001 C CNN "Status"
+F 22 "*" H 3850 7850 50  0001 C CNN "Tolerance"
+F 23 "*" H 3950 7950 50  0001 C CNN "Type"
+F 24 "*" H 4050 8050 50  0001 C CNN "Voltage"
+F 25 "*" H 4150 8200 50  0001 C CNN "Package"
+F 26 "*" H 4350 8400 50  0001 C CNN "_Value_"
+F 27 "*" H 4450 8500 50  0001 C CNN "Management_ID"
+F 28 "*" H 4450 8500 50  0001 C CNN "Description"
+	1    2050 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 3600 6450 3600
+Wire Wire Line
+	5700 3400 4300 3400
+Wire Wire Line
+	5700 3600 2400 3600
+Wire Wire Line
+	6450 3700 8000 3700
+Text HLabel 4300 3400 0    50   Input ~ 0
+LED_RESET
+Wire Wire Line
+	5700 4200 2300 4200
+Wire Wire Line
+	6450 4100 8000 4100
+Text HLabel 7950 3300 2    50   BiDi ~ 0
+LED_SDA
+Text HLabel 4300 3300 0    50   Input ~ 0
+LED_SCL
+Wire Wire Line
+	6450 3100 8000 3100
+Wire Wire Line
+	6450 3000 8000 3000
+Wire Wire Line
+	6450 2900 8000 2900
+$Comp
+L power:+5V #PWR034
+U 1 1 5E965774
+P 6900 1850
+F 0 "#PWR034" H 6900 1700 50  0001 C CNN
+F 1 "+5V" H 6915 2023 50  0000 C CNN
+F 2 "" H 6900 1850 50  0001 C CNN
+F 3 "" H 6900 1850 50  0001 C CNN
+	1    6900 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4950 5200 4950
+Connection ~ 6100 4950
+$Comp
+L power:GND #PWR033
+U 1 1 5E961FE0
+P 6100 4950
+F 0 "#PWR033" H 6100 4700 50  0001 C CNN
+F 1 "GND" H 6105 4777 50  0000 C CNN
+F 2 "" H 6100 4950 50  0001 C CNN
+F 3 "" H 6100 4950 50  0001 C CNN
+	1    6100 4950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5200 4500
+Connection ~ 6900 4200
+Wire Wire Line
+	5200 4950 5200 4500
+Wire Wire Line
+	6900 4950 6100 4950
+Wire Wire Line
+	6900 4200 6900 4950
+Connection ~ 5200 3800
+Wire Wire Line
+	5200 4500 5200 3800
+Wire Wire Line
+	5700 4500 5200 4500
+Wire Wire Line
+	5200 3000 5700 3000
+Wire Wire Line
+	5200 3800 5200 3000
+Wire Wire Line
+	5700 3800 5200 3800
+Connection ~ 6900 4000
+Wire Wire Line
+	6900 4200 6450 4200
+Wire Wire Line
+	6900 4000 6900 4200
+Connection ~ 6900 3500
+Wire Wire Line
+	6900 4000 6450 4000
+Wire Wire Line
+	6900 3500 6900 4000
+Connection ~ 6900 3200
+Wire Wire Line
+	6900 3500 6450 3500
+Wire Wire Line
+	6900 3200 6900 3500
+Wire Wire Line
+	6900 3200 6450 3200
+Wire Wire Line
+	6900 2800 6900 3200
+Wire Wire Line
+	6450 2800 6900 2800
+Connection ~ 6900 2600
+Wire Wire Line
+	6900 2600 6900 1850
+Wire Wire Line
+	6900 2600 6450 2600
+Wire Wire Line
+	6900 2700 6900 2600
+Wire Wire Line
+	6450 2700 6900 2700
+Text HLabel 2300 4200 0    50   Input ~ 0
+RF_RX
+Text HLabel 8000 4100 2    50   Output ~ 0
+RF_TX
+$Comp
+L growbox-KiCAD-Connectors:ESQ-120-34-T-D T?
+U 1 1 5E77ADBF
+P 6250 2500
+AR Path="/5E77ADBF" Ref="T?"  Part="1" 
+AR Path="/5E767796/5E77ADBF" Ref="T6"  Part="1" 
+F 0 "T6" H 6300 2550 50  0000 C CNN
+F 1 "ESQ-120-34-T-D" H 6250 350 50  0000 C CNN
+F 2 "growbox-KiCAD-Connectors:ESQ-120-34-T-D_2x20_Pitch2.54mm" H 6050 2450 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/esq_th.pdf" H 6150 2550 50  0001 C CNN
+F 4 "5.53000" H 6350 2750 50  0001 C CNN "Cost QTY: 1"
+F 5 "3.20450" H 6450 2850 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 6550 2950 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 6650 3050 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 6750 3150 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Samtec Inc." H 6850 3250 50  0001 C CNN "MFR"
+F 10 "ESQ-120-34-T-D" H 6950 3350 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 7050 3450 50  0001 C CNN "Vendor"
+F 12 "SAM9320-ND" H 7150 3550 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 7250 3650 50  0001 C CNN "Designer"
+F 14 "16.13" H 7350 3750 50  0001 C CNN "Height"
+F 15 "3/16/2020" H 8450 4850 50  0001 C CNN "Date Created"
+F 16 "3/16/2020" H 7450 3850 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 7550 3950 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 7650 4050 50  0001 C CNN "RoHS Levels"
+F 19 "ThroughHole" H 7750 4150 50  0001 C CNN "Mounting"
+F 20 "40" H 7850 4250 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 7950 4350 50  0001 C CNN "Status"
+F 22 "*" H 8050 4450 50  0001 C CNN "Tolerance"
+F 23 "2.54mm Elevated Female Header" H 8150 4550 50  0001 C CNN "Type"
+F 24 "550VAC" H 8250 4650 50  0001 C CNN "Voltage"
+F 25 "*" H 8350 4800 50  0001 C CNN "Package"
+F 26 "40 Position Elevated Socket Connector  Through Hole" H 8750 5200 50  0001 C CNN "Description"
+F 27 "2X20 - Header" H 8550 5000 50  0001 C CNN "_Value_"
+F 28 "*" H 8650 5100 50  0001 C CNN "Management_ID"
+	1    6250 2500
+	-1   0    0    -1  
+$EndComp
+Connection ~ 1400 3200
+Wire Wire Line
+	1400 3300 1400 3200
+Wire Wire Line
+	1800 3200 1400 3200
+Connection ~ 1800 3200
+Wire Wire Line
+	1800 3150 1800 3200
+Connection ~ 2000 3200
+Wire Wire Line
+	2000 3100 2000 3200
+Wire Wire Line
+	1400 3200 1400 3150
+Wire Wire Line
+	2000 3200 1800 3200
+Connection ~ 1800 2700
+Wire Wire Line
+	1800 2700 2000 2700
+$Comp
+L growbox-KiCAD-Capacitors:GRM155R71E104KE14J C?
+U 1 1 5E9FBCAB
+P 1800 2900
+AR Path="/5E9FBCAB" Ref="C?"  Part="1" 
+AR Path="/5E767796/5E9FBCAB" Ref="C22"  Part="1" 
+AR Path="/5EA3F1A2/5E9FBCAB" Ref="C?"  Part="1" 
+F 0 "C22" V 1750 3000 50  0000 C CNN
+F 1 "GRM155R71E104KE14J" H 1850 3100 50  0001 C CNN
+F 2 "growbox-KiCAD-Capacitors:C0402" H 1600 2900 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71E104KE14-01.pdf" H 1700 3000 50  0001 C CNN
+F 4 "0.10000" H 1900 3150 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.00941" H 2000 3250 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.00855" H 2100 3350 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00787" H 2200 3450 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 2300 3550 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Murata Electronics" H 2400 3650 50  0001 C CNN "MFR"
+F 10 "GRM155R71E104KE14J" H 2500 3750 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 2600 3850 50  0001 C CNN "Vendor"
+F 12 "490-14603-1-ND" H 2700 3950 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 2800 4050 50  0001 C CNN "Designer"
+F 14 "0.55mm" H 2900 4150 50  0001 C CNN "Height"
+F 15 "2/28/2020" H 4000 5250 50  0001 C CNN "Date Created"
+F 16 "2/28/2020" H 3000 4250 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 3100 4350 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 3200 4450 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 3300 4550 50  0001 C CNN "Mounting"
+F 20 "2" H 3400 4650 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 3500 4750 50  0001 C CNN "Status"
+F 22 "10%" H 3600 4850 50  0001 C CNN "Tolerance"
+F 23 "Ceramic Cap" H 3700 4950 50  0001 C CNN "Type"
+F 24 "25V" H 3800 5050 50  0001 C CNN "Voltage"
+F 25 "0402" H 3900 5200 50  0001 C CNN "Package"
+F 26 "0.1µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)" H 4300 5600 50  0001 C CNN "Description"
+F 27 "0.1uF" V 1950 3050 50  0000 C CNN "_Value_"
+F 28 "*" H 4200 5500 50  0001 C CNN "Management_ID"
+	1    1800 2900
+	0    -1   1    0   
+$EndComp
+$Comp
+L growbox-KiCAD-ICs:SHT35-DIS-B2.5KS U?
+U 1 1 5E9FBCCA
+P 2600 2500
+AR Path="/5E9FBCCA" Ref="U?"  Part="1" 
+AR Path="/5E767796/5E9FBCCA" Ref="U5"  Part="1" 
+AR Path="/5EA3F1A2/5E9FBCCA" Ref="U?"  Part="1" 
+F 0 "U5" H 2950 2450 50  0000 C CNN
+F 1 "SHT35-DIS-B2.5KS" H 2650 2700 50  0001 C CNN
+F 2 "growbox-KiCAD-ICs:DFN8_SHT35" H 2700 2600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/HT_DS_SHT3x_DIS.pdf" H 2300 2400 50  0001 C CNN
+F 4 "12.41000" H 2700 2750 50  0001 C CNN "Cost QTY: 1"
+F 5 "6.09840" H 2800 2850 50  0001 C CNN "Cost QTY: 1000"
+F 6 "5.44500" H 2900 2950 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 3000 3050 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 3100 3150 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Sensirion AG" H 3200 3250 50  0001 C CNN "MFR"
+F 10 "SHT35-DIS-B2.5KS" H 3300 3350 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 3400 3450 50  0001 C CNN "Vendor"
+F 12 "1649-1062-1-ND" H 3500 3550 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 3600 3650 50  0001 C CNN "Designer"
+F 14 "0.9mm" H 3700 3750 50  0001 C CNN "Height"
+F 15 "2/28/2020" H 4800 4850 50  0001 C CNN "Date Created"
+F 16 "2/28/2020" H 3800 3850 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 3900 3950 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 4000 4050 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 4100 4150 50  0001 C CNN "Mounting"
+F 20 "9" H 4200 4250 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 4300 4350 50  0001 C CNN "Status"
+F 22 "*" H 4400 4450 50  0001 C CNN "Tolerance"
+F 23 "I2C Temp and Humidity Sensing" H 4500 4550 50  0001 C CNN "Type"
+F 24 "2.15V-5.5V" H 4600 4650 50  0001 C CNN "Voltage"
+F 25 "8DFN" H 4700 4800 50  0001 C CNN "Package"
+F 26 "SENSOR HUMI/TEMP 5V I2C 1.5% SMD" H 5000 5100 50  0001 C CNN "Description"
+F 27 "SHT35-DIS-B2.5KS" H 2700 1650 50  0000 C CNN "_Value_"
+F 28 "*" H 5000 5100 50  0001 C CNN "Management_ID"
+	1    2600 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L growbox-KiCAD-Capacitors:GRM188R61A106KE69J C?
+U 1 1 5E9FBCE9
+P 1400 2900
+AR Path="/5E9FBCE9" Ref="C?"  Part="1" 
+AR Path="/5E767796/5E9FBCE9" Ref="C23"  Part="1" 
+AR Path="/5EA3F1A2/5E9FBCE9" Ref="C?"  Part="1" 
+F 0 "C23" V 1350 3000 50  0000 C CNN
+F 1 "GRM188R61A106KE69J" H 1450 3100 50  0001 C CNN
+F 2 "growbox-KiCAD-Capacitors:C0603" H 1200 2900 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A106KE69-01.pdf" H 1300 3000 50  0001 C CNN
+F 4 "0.18000" H 1500 3150 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.03841" H 1600 3250 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.03674" H 1700 3350 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.03340" H 1800 3450 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.02640" H 1900 3550 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Murata Electronics" H 2000 3650 50  0001 C CNN "MFR"
+F 10 "GRM188R61A106KE69J" H 2100 3750 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 2200 3850 50  0001 C CNN "Vendor"
+F 12 "490-14372-2-ND" H 2300 3950 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 2400 4050 50  0001 C CNN "Designer"
+F 14 "0.95mm" H 2500 4150 50  0001 C CNN "Height"
+F 15 "2/28/2020" H 3600 5250 50  0001 C CNN "Date Created"
+F 16 "2/28/2020" H 2600 4250 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 2700 4350 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 2800 4450 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 2900 4550 50  0001 C CNN "Mounting"
+F 20 "2" H 3000 4650 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 3100 4750 50  0001 C CNN "Status"
+F 22 "10%" H 3200 4850 50  0001 C CNN "Tolerance"
+F 23 "Ceramic Cap" H 3300 4950 50  0001 C CNN "Type"
+F 24 "10V" H 3400 5050 50  0001 C CNN "Voltage"
+F 25 "0603" H 3500 5200 50  0001 C CNN "Package"
+F 26 "10µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" H 3900 5600 50  0001 C CNN "Description"
+F 27 "10uF" V 1550 3050 50  0000 C CNN "_Value_"
+F 28 "*" H 3800 5500 50  0001 C CNN "Management_ID"
+	1    1400 2900
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR039
+U 1 1 5E9FBCEF
+P 1400 2500
+AR Path="/5E767796/5E9FBCEF" Ref="#PWR039"  Part="1" 
+AR Path="/5EA3F1A2/5E9FBCEF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR039" H 1400 2350 50  0001 C CNN
+F 1 "+3.3V" H 1415 2673 50  0000 C CNN
+F 2 "" H 1400 2500 50  0001 C CNN
+F 3 "" H 1400 2500 50  0001 C CNN
+	1    1400 2500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 2500 1400 2700
+Wire Wire Line
+	1400 2700 1800 2700
+Connection ~ 1400 2700
+$Comp
+L power:GND #PWR040
+U 1 1 5E9FBCF8
+P 1400 3300
+AR Path="/5E767796/5E9FBCF8" Ref="#PWR040"  Part="1" 
+AR Path="/5EA3F1A2/5E9FBCF8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR040" H 1400 3050 50  0001 C CNN
+F 1 "GND" H 1405 3127 50  0000 C CNN
+F 2 "" H 1400 3300 50  0001 C CNN
+F 3 "" H 1400 3300 50  0001 C CNN
+	1    1400 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L growbox-KiCAD-Resistors:RC0402FR-074K7L R?
+U 1 1 5E9FBD17
+P 3300 1500
+AR Path="/5E9FBD17" Ref="R?"  Part="1" 
+AR Path="/5E767796/5E9FBD17" Ref="R12"  Part="1" 
+AR Path="/5E8884ED/5E9FBD17" Ref="R?"  Part="1" 
+AR Path="/5EA3F1A2/5E9FBD17" Ref="R?"  Part="1" 
+F 0 "R12" V 3250 1600 50  0000 C CNN
+F 1 "RC0402FR-074K7L" H 3300 1725 50  0001 C CNN
+F 2 "growbox-KiCAD-Resistors:R0402" H 3300 1500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3300 1500 50  0001 C CNN
+F 4 "0.10000" H 3400 1750 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.00289" H 3500 1850 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.00251" H 3600 1950 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00207" H 3700 2050 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00163" H 3800 2150 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 3900 2250 50  0001 C CNN "MFR"
+F 10 "RC0402FR-074K7L" H 4000 2350 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 4100 2450 50  0001 C CNN "Vendor"
+F 12 "311-4.7KLRCT-ND" H 4200 2550 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 4300 2650 50  0001 C CNN "Designer"
+F 14 "0.4mm" H 4400 2750 50  0001 C CNN "Height"
+F 15 "12/11/2019" H 5500 3850 50  0001 C CNN "Date Created"
+F 16 "12/11/2019" H 4500 2850 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 4600 2950 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 4700 3050 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 4800 3150 50  0001 C CNN "Mounting"
+F 20 "2" H 4900 3250 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 5000 3350 50  0001 C CNN "Status"
+F 22 "1%" H 5100 3450 50  0001 C CNN "Tolerance"
+F 23 "Thick Film Resistor" H 5200 3550 50  0001 C CNN "Type"
+F 24 "*" H 5300 3650 50  0001 C CNN "Voltage"
+F 25 "0402" H 5400 3800 50  0001 C CNN "Package"
+F 26 "4.7K" V 3350 1650 50  0000 C CNN "_Value_"
+F 27 "*" H 5700 4100 50  0001 C CNN "Management_ID"
+F 28 "4.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 5700 4100 50  0001 C CNN "Description"
+	1    3300 1500
+	0    -1   1    0   
+$EndComp
+$Comp
+L growbox-KiCAD-Resistors:RC0402FR-074K7L R?
+U 1 1 5E9FBD36
+P 3650 1500
+AR Path="/5E9FBD36" Ref="R?"  Part="1" 
+AR Path="/5E767796/5E9FBD36" Ref="R11"  Part="1" 
+AR Path="/5E8884ED/5E9FBD36" Ref="R?"  Part="1" 
+AR Path="/5EA3F1A2/5E9FBD36" Ref="R?"  Part="1" 
+F 0 "R11" V 3600 1600 50  0000 C CNN
+F 1 "RC0402FR-074K7L" H 3650 1725 50  0001 C CNN
+F 2 "growbox-KiCAD-Resistors:R0402" H 3650 1500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3650 1500 50  0001 C CNN
+F 4 "0.10000" H 3750 1750 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.00289" H 3850 1850 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.00251" H 3950 1950 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00207" H 4050 2050 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00163" H 4150 2150 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 4250 2250 50  0001 C CNN "MFR"
+F 10 "RC0402FR-074K7L" H 4350 2350 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 4450 2450 50  0001 C CNN "Vendor"
+F 12 "311-4.7KLRCT-ND" H 4550 2550 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 4650 2650 50  0001 C CNN "Designer"
+F 14 "0.4mm" H 4750 2750 50  0001 C CNN "Height"
+F 15 "12/11/2019" H 5850 3850 50  0001 C CNN "Date Created"
+F 16 "12/11/2019" H 4850 2850 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 4950 2950 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 5050 3050 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 5150 3150 50  0001 C CNN "Mounting"
+F 20 "2" H 5250 3250 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 5350 3350 50  0001 C CNN "Status"
+F 22 "1%" H 5450 3450 50  0001 C CNN "Tolerance"
+F 23 "Thick Film Resistor" H 5550 3550 50  0001 C CNN "Type"
+F 24 "*" H 5650 3650 50  0001 C CNN "Voltage"
+F 25 "0402" H 5750 3800 50  0001 C CNN "Package"
+F 26 "4.7K" V 3700 1650 50  0000 C CNN "_Value_"
+F 27 "*" H 6050 4100 50  0001 C CNN "Management_ID"
+F 28 "4.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 6050 4100 50  0001 C CNN "Description"
+	1    3650 1500
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR041
+U 1 1 5E9FBD3C
+P 3300 1300
+AR Path="/5E767796/5E9FBD3C" Ref="#PWR041"  Part="1" 
+AR Path="/5E8884ED/5E9FBD3C" Ref="#PWR?"  Part="1" 
+AR Path="/5EA3F1A2/5E9FBD3C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR041" H 3300 1150 50  0001 C CNN
+F 1 "+3.3V" H 3315 1473 50  0000 C CNN
+F 2 "" H 3300 1300 50  0001 C CNN
+F 3 "" H 3300 1300 50  0001 C CNN
+	1    3300 1300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 1300 3300 1300
+Connection ~ 3300 1300
+Wire Wire Line
+	3300 1700 3300 2700
+Wire Wire Line
+	3300 2700 3050 2700
+Wire Wire Line
+	3650 1700 3650 2800
+Wire Wire Line
+	3650 2800 3050 2800
+Wire Wire Line
+	5700 2700 3300 2700
+Connection ~ 3300 2700
+Wire Wire Line
+	5700 2800 3650 2800
+Connection ~ 3650 2800
+Text Notes 4450 2650 0    50   ~ 0
+RPi4 I2C Port 3
+Wire Wire Line
+	7950 3300 6450 3300
+Wire Wire Line
+	5700 3300 4300 3300
+Wire Wire Line
+	6450 3800 8000 3800
+Wire Wire Line
+	5700 4100 2400 4100
+Text HLabel 8000 3800 2    50   Input ~ 0
+RTC_SCL
+Text HLabel 2400 4100 0    50   Input ~ 0
+RTC_SDA
+Wire Wire Line
+	5700 4000 2400 4000
+Text HLabel 2400 4000 0    50   Input ~ 0
+RTC_IRQ
+Text HLabel 8000 2900 2    50   Input ~ 0
+RS485_UART_TX1
+Text HLabel 8000 3000 2    50   Input ~ 0
+RS485_UART_RX1
+Text HLabel 8000 3700 2    50   Input ~ 0
+RS485_UART_TX2
+Text HLabel 2400 3600 0    50   Input ~ 0
+RS485_UART_RX2
+Text HLabel 2400 3900 0    50   Input ~ 0
+RS485_DE2
+Text HLabel 4300 2900 0    50   Input ~ 0
+RS485_DE1
+Text HLabel 2400 3700 0    50   Input ~ 0
+RS485_SL_RATE2
+Text HLabel 4300 3200 0    50   Input ~ 0
+RS485_SL_RATE1
+Text HLabel 4300 3100 0    50   Input ~ 0
+RS485_TERM_EN1
+Text HLabel 8000 3100 2    50   Input ~ 0
+RS485_RE1
+Text HLabel 8150 3600 2    50   Input ~ 0
+RS485_RE2
+Text HLabel 8000 3900 2    50   Input ~ 0
+RS485_TERM_EN2
+Text HLabel 8900 4700 2    50   Input ~ 0
+MOSI
+Text HLabel 8900 4800 2    50   Input ~ 0
+MISO
+Text HLabel 8900 4900 2    50   Input ~ 0
+SCLK
+Text HLabel 8900 5000 2    50   Input ~ 0
+SPI_CS
+Wire Wire Line
+	5700 3100 4300 3100
+Wire Wire Line
+	4300 3200 5700 3200
+Wire Wire Line
+	5700 2900 4300 2900
+Wire Wire Line
+	8000 3900 6450 3900
+Wire Wire Line
+	5700 3900 2400 3900
+Wire Wire Line
+	2400 3700 5700 3700
+$EndSCHEMATC

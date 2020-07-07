@@ -1,0 +1,293 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 1450 3800
+Wire Wire Line
+	1450 3900 1450 3800
+Wire Wire Line
+	1850 3800 1450 3800
+Connection ~ 1850 3800
+Wire Wire Line
+	1850 3750 1850 3800
+Connection ~ 2050 3800
+Wire Wire Line
+	2050 3700 2050 3800
+Wire Wire Line
+	1450 3800 1450 3750
+Wire Wire Line
+	2050 3800 1850 3800
+Connection ~ 1850 3300
+Wire Wire Line
+	1850 3300 2050 3300
+$Comp
+L growbox-KiCAD-Capacitors:GRM155R71E104KE14J C?
+U 1 1 5EA4A1AA
+P 1850 3500
+AR Path="/5EA4A1AA" Ref="C?"  Part="1" 
+AR Path="/5E767796/5EA4A1AA" Ref="C?"  Part="1" 
+AR Path="/5EA3F1A2/5EA4A1AA" Ref="C23"  Part="1" 
+F 0 "C23" V 1800 3600 50  0000 C CNN
+F 1 "GRM155R71E104KE14J" H 1900 3700 50  0001 C CNN
+F 2 "growbox-KiCAD-Capacitors:C0402" H 1650 3500 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71E104KE14-01.pdf" H 1750 3600 50  0001 C CNN
+F 4 "0.10000" H 1950 3750 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.00941" H 2050 3850 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.00855" H 2150 3950 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00787" H 2250 4050 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 2350 4150 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Murata Electronics" H 2450 4250 50  0001 C CNN "MFR"
+F 10 "GRM155R71E104KE14J" H 2550 4350 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 2650 4450 50  0001 C CNN "Vendor"
+F 12 "490-14603-1-ND" H 2750 4550 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 2850 4650 50  0001 C CNN "Designer"
+F 14 "0.55mm" H 2950 4750 50  0001 C CNN "Height"
+F 15 "2/28/2020" H 4050 5850 50  0001 C CNN "Date Created"
+F 16 "2/28/2020" H 3050 4850 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 3150 4950 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 3250 5050 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 3350 5150 50  0001 C CNN "Mounting"
+F 20 "2" H 3450 5250 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 3550 5350 50  0001 C CNN "Status"
+F 22 "10%" H 3650 5450 50  0001 C CNN "Tolerance"
+F 23 "Ceramic Cap" H 3750 5550 50  0001 C CNN "Type"
+F 24 "25V" H 3850 5650 50  0001 C CNN "Voltage"
+F 25 "0402" H 3950 5800 50  0001 C CNN "Package"
+F 26 "0.1µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)" H 4350 6200 50  0001 C CNN "Description"
+F 27 "0.1uF" V 2000 3650 50  0000 C CNN "_Value_"
+F 28 "*" H 4250 6100 50  0001 C CNN "Management_ID"
+	1    1850 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L growbox-KiCAD-ICs:SHT35-DIS-B2.5KS U?
+U 1 1 5EA4A1C9
+P 2650 3100
+AR Path="/5EA4A1C9" Ref="U?"  Part="1" 
+AR Path="/5E767796/5EA4A1C9" Ref="U?"  Part="1" 
+AR Path="/5EA3F1A2/5EA4A1C9" Ref="U5"  Part="1" 
+F 0 "U5" H 3000 3050 50  0000 C CNN
+F 1 "SHT35-DIS-B2.5KS" H 2700 3300 50  0001 C CNN
+F 2 "growbox-KiCAD-ICs:DFN8_SHT35" H 2750 3200 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/HT_DS_SHT3x_DIS.pdf" H 2350 3000 50  0001 C CNN
+F 4 "12.41000" H 2750 3350 50  0001 C CNN "Cost QTY: 1"
+F 5 "6.09840" H 2850 3450 50  0001 C CNN "Cost QTY: 1000"
+F 6 "5.44500" H 2950 3550 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 3050 3650 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 3150 3750 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Sensirion AG" H 3250 3850 50  0001 C CNN "MFR"
+F 10 "SHT35-DIS-B2.5KS" H 3350 3950 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 3450 4050 50  0001 C CNN "Vendor"
+F 12 "1649-1062-1-ND" H 3550 4150 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 3650 4250 50  0001 C CNN "Designer"
+F 14 "0.9mm" H 3750 4350 50  0001 C CNN "Height"
+F 15 "2/28/2020" H 4850 5450 50  0001 C CNN "Date Created"
+F 16 "2/28/2020" H 3850 4450 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 3950 4550 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 4050 4650 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 4150 4750 50  0001 C CNN "Mounting"
+F 20 "9" H 4250 4850 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 4350 4950 50  0001 C CNN "Status"
+F 22 "*" H 4450 5050 50  0001 C CNN "Tolerance"
+F 23 "I2C Temp and Humidity Sensing" H 4550 5150 50  0001 C CNN "Type"
+F 24 "2.15V-5.5V" H 4650 5250 50  0001 C CNN "Voltage"
+F 25 "8DFN" H 4750 5400 50  0001 C CNN "Package"
+F 26 "SENSOR HUMI/TEMP 5V I2C 1.5% SMD" H 5050 5700 50  0001 C CNN "Description"
+F 27 "SHT35-DIS-B2.5KS" H 2750 2250 50  0000 C CNN "_Value_"
+F 28 "*" H 5050 5700 50  0001 C CNN "Management_ID"
+	1    2650 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L growbox-KiCAD-Capacitors:GRM188R61A106KE69J C?
+U 1 1 5EA4A1E8
+P 1450 3500
+AR Path="/5EA4A1E8" Ref="C?"  Part="1" 
+AR Path="/5E767796/5EA4A1E8" Ref="C?"  Part="1" 
+AR Path="/5EA3F1A2/5EA4A1E8" Ref="C22"  Part="1" 
+F 0 "C22" V 1400 3600 50  0000 C CNN
+F 1 "GRM188R61A106KE69J" H 1500 3700 50  0001 C CNN
+F 2 "growbox-KiCAD-Capacitors:C0603" H 1250 3500 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A106KE69-01.pdf" H 1350 3600 50  0001 C CNN
+F 4 "0.18000" H 1550 3750 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.03841" H 1650 3850 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.03674" H 1750 3950 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.03340" H 1850 4050 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.02640" H 1950 4150 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Murata Electronics" H 2050 4250 50  0001 C CNN "MFR"
+F 10 "GRM188R61A106KE69J" H 2150 4350 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 2250 4450 50  0001 C CNN "Vendor"
+F 12 "490-14372-2-ND" H 2350 4550 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 2450 4650 50  0001 C CNN "Designer"
+F 14 "0.95mm" H 2550 4750 50  0001 C CNN "Height"
+F 15 "2/28/2020" H 3650 5850 50  0001 C CNN "Date Created"
+F 16 "2/28/2020" H 2650 4850 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 2750 4950 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 2850 5050 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 2950 5150 50  0001 C CNN "Mounting"
+F 20 "2" H 3050 5250 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 3150 5350 50  0001 C CNN "Status"
+F 22 "10%" H 3250 5450 50  0001 C CNN "Tolerance"
+F 23 "Ceramic Cap" H 3350 5550 50  0001 C CNN "Type"
+F 24 "10V" H 3450 5650 50  0001 C CNN "Voltage"
+F 25 "0603" H 3550 5800 50  0001 C CNN "Package"
+F 26 "10µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" H 3950 6200 50  0001 C CNN "Description"
+F 27 "10uF" V 1600 3650 50  0000 C CNN "_Value_"
+F 28 "*" H 3850 6100 50  0001 C CNN "Management_ID"
+	1    1450 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5EA4A1EE
+P 1450 3100
+AR Path="/5E767796/5EA4A1EE" Ref="#PWR?"  Part="1" 
+AR Path="/5EA3F1A2/5EA4A1EE" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 1450 2950 50  0001 C CNN
+F 1 "+3.3V" H 1465 3273 50  0000 C CNN
+F 2 "" H 1450 3100 50  0001 C CNN
+F 3 "" H 1450 3100 50  0001 C CNN
+	1    1450 3100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3100 1450 3300
+Wire Wire Line
+	1450 3300 1850 3300
+Connection ~ 1450 3300
+$Comp
+L power:GND #PWR?
+U 1 1 5EA4A1F7
+P 1450 3900
+AR Path="/5E767796/5EA4A1F7" Ref="#PWR?"  Part="1" 
+AR Path="/5EA3F1A2/5EA4A1F7" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 1450 3650 50  0001 C CNN
+F 1 "GND" H 1455 3727 50  0000 C CNN
+F 2 "" H 1450 3900 50  0001 C CNN
+F 3 "" H 1450 3900 50  0001 C CNN
+	1    1450 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L growbox-KiCAD-Resistors:RC0402FR-074K7L R?
+U 1 1 5EA4A218
+P 3350 1600
+AR Path="/5EA4A218" Ref="R?"  Part="1" 
+AR Path="/5E767796/5EA4A218" Ref="R?"  Part="1" 
+AR Path="/5E8884ED/5EA4A218" Ref="R?"  Part="1" 
+AR Path="/5EA3F1A2/5EA4A218" Ref="R2"  Part="1" 
+F 0 "R2" V 3300 1700 50  0000 C CNN
+F 1 "RC0402FR-074K7L" H 3350 1825 50  0001 C CNN
+F 2 "growbox-KiCAD-Resistors:R0402" H 3350 1600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3350 1600 50  0001 C CNN
+F 4 "0.10000" H 3450 1850 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.00289" H 3550 1950 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.00251" H 3650 2050 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00207" H 3750 2150 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00163" H 3850 2250 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 3950 2350 50  0001 C CNN "MFR"
+F 10 "RC0402FR-074K7L" H 4050 2450 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 4150 2550 50  0001 C CNN "Vendor"
+F 12 "311-4.7KLRCT-ND" H 4250 2650 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 4350 2750 50  0001 C CNN "Designer"
+F 14 "0.4mm" H 4450 2850 50  0001 C CNN "Height"
+F 15 "12/11/2019" H 5550 3950 50  0001 C CNN "Date Created"
+F 16 "12/11/2019" H 4550 2950 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 4650 3050 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 4750 3150 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 4850 3250 50  0001 C CNN "Mounting"
+F 20 "2" H 4950 3350 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 5050 3450 50  0001 C CNN "Status"
+F 22 "1%" H 5150 3550 50  0001 C CNN "Tolerance"
+F 23 "Thick Film Resistor" H 5250 3650 50  0001 C CNN "Type"
+F 24 "*" H 5350 3750 50  0001 C CNN "Voltage"
+F 25 "0402" H 5450 3900 50  0001 C CNN "Package"
+F 26 "4.7K" V 3400 1750 50  0000 C CNN "_Value_"
+F 27 "*" H 5750 4200 50  0001 C CNN "Management_ID"
+F 28 "4.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 5750 4200 50  0001 C CNN "Description"
+	1    3350 1600
+	0    -1   1    0   
+$EndComp
+$Comp
+L growbox-KiCAD-Resistors:RC0402FR-074K7L R?
+U 1 1 5EA4A237
+P 3700 1600
+AR Path="/5EA4A237" Ref="R?"  Part="1" 
+AR Path="/5E767796/5EA4A237" Ref="R?"  Part="1" 
+AR Path="/5E8884ED/5EA4A237" Ref="R?"  Part="1" 
+AR Path="/5EA3F1A2/5EA4A237" Ref="R3"  Part="1" 
+F 0 "R3" V 3650 1700 50  0000 C CNN
+F 1 "RC0402FR-074K7L" H 3700 1825 50  0001 C CNN
+F 2 "growbox-KiCAD-Resistors:R0402" H 3700 1600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3700 1600 50  0001 C CNN
+F 4 "0.10000" H 3800 1850 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.00289" H 3900 1950 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.00251" H 4000 2050 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00207" H 4100 2150 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00163" H 4200 2250 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 4300 2350 50  0001 C CNN "MFR"
+F 10 "RC0402FR-074K7L" H 4400 2450 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 4500 2550 50  0001 C CNN "Vendor"
+F 12 "311-4.7KLRCT-ND" H 4600 2650 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 4700 2750 50  0001 C CNN "Designer"
+F 14 "0.4mm" H 4800 2850 50  0001 C CNN "Height"
+F 15 "12/11/2019" H 5900 3950 50  0001 C CNN "Date Created"
+F 16 "12/11/2019" H 4900 2950 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 5000 3050 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 5100 3150 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 5200 3250 50  0001 C CNN "Mounting"
+F 20 "2" H 5300 3350 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 5400 3450 50  0001 C CNN "Status"
+F 22 "1%" H 5500 3550 50  0001 C CNN "Tolerance"
+F 23 "Thick Film Resistor" H 5600 3650 50  0001 C CNN "Type"
+F 24 "*" H 5700 3750 50  0001 C CNN "Voltage"
+F 25 "0402" H 5800 3900 50  0001 C CNN "Package"
+F 26 "4.7K" V 3750 1750 50  0000 C CNN "_Value_"
+F 27 "*" H 6100 4200 50  0001 C CNN "Management_ID"
+F 28 "4.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 6100 4200 50  0001 C CNN "Description"
+	1    3700 1600
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5EA4A23D
+P 3350 1200
+AR Path="/5E767796/5EA4A23D" Ref="#PWR?"  Part="1" 
+AR Path="/5E8884ED/5EA4A23D" Ref="#PWR?"  Part="1" 
+AR Path="/5EA3F1A2/5EA4A23D" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 3350 1050 50  0001 C CNN
+F 1 "+3.3V" H 3365 1373 50  0000 C CNN
+F 2 "" H 3350 1200 50  0001 C CNN
+F 3 "" H 3350 1200 50  0001 C CNN
+	1    3350 1200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1400 3350 1400
+Wire Wire Line
+	3350 1200 3350 1400
+Connection ~ 3350 1400
+Wire Wire Line
+	3350 1800 3350 3300
+Wire Wire Line
+	3350 3300 3100 3300
+Wire Wire Line
+	3700 1800 3700 3400
+Wire Wire Line
+	3700 3400 3100 3400
+Text HLabel 1050 4550 0    50   Input ~ 0
+LED_SCL
+Text HLabel 1050 4450 0    50   BiDi ~ 0
+LED_SDA
+$EndSCHEMATC
