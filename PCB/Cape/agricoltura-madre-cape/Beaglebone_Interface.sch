@@ -297,4 +297,12 @@ Wire Wire Line
 	4350 3450 3450 3450
 Wire Wire Line
 	3450 3550 4350 3550
+Text HLabel 1150 3650 2    50   Input ~ 0
+SCLK
+Text HLabel 1150 3750 2    50   Input ~ 0
+MISO
+Text HLabel 1150 3850 2    50   Input ~ 0
+MOSI
+Text HLabel 1250 3550 2    50   Input ~ 0
+CS
 $EndSCHEMATC
