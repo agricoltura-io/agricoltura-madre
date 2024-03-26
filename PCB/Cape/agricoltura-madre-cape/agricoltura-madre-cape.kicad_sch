@@ -1,0 +1,637 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e4065b0c-66d2-434f-b1b5-ef3810d5298a")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 205.74 107.95) (xy 194.31 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0652f6aa-930c-4d61-a0dd-0566c49f656f")
+	)
+	(wire
+		(pts
+			(xy 144.78 88.9) (xy 125.73 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "099cb6cb-440a-4983-bf75-e3f6d5159b7d")
+	)
+	(wire
+		(pts
+			(xy 194.31 97.79) (xy 205.74 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1943ee2c-c9fe-41bb-a307-e3a4337a6078")
+	)
+	(wire
+		(pts
+			(xy 144.78 86.36) (xy 125.73 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23fd097a-03cf-4549-8bc8-17106ad6221a")
+	)
+	(wire
+		(pts
+			(xy 194.31 67.31) (xy 205.74 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0e9b0e-fac3-4d18-b1d6-c65ded9372ea")
+	)
+	(wire
+		(pts
+			(xy 194.31 59.69) (xy 205.74 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342827ed-679f-4e9a-8216-ebd7437e56b6")
+	)
+	(wire
+		(pts
+			(xy 194.31 72.39) (xy 205.74 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41578736-8437-4185-8ea4-a60ef3fe9af7")
+	)
+	(wire
+		(pts
+			(xy 144.78 78.74) (xy 125.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49fe54c0-998e-4f64-91ef-bf13e0a91372")
+	)
+	(wire
+		(pts
+			(xy 194.31 110.49) (xy 205.74 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6319a2b6-36ac-4a8a-b531-ae24fe15131d")
+	)
+	(wire
+		(pts
+			(xy 144.78 83.82) (xy 125.73 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d41d9d0-87a0-41a9-af7c-1e376da0e1b6")
+	)
+	(wire
+		(pts
+			(xy 194.31 100.33) (xy 205.74 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8024fb6f-1e3d-4be5-ba4a-945a60727980")
+	)
+	(wire
+		(pts
+			(xy 194.31 105.41) (xy 205.74 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919eb5a9-2334-4d56-ab06-18215318c803")
+	)
+	(wire
+		(pts
+			(xy 194.31 62.23) (xy 205.74 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f4b330-f38d-4fcb-ae95-33f8e8116e6e")
+	)
+	(wire
+		(pts
+			(xy 205.74 69.85) (xy 194.31 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a0a946-3e0c-4d96-934b-9fb524ac59cc")
+	)
+	(wire
+		(pts
+			(xy 144.78 81.28) (xy 125.73 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4479209-4e1b-4947-8c62-6d7c681c9dd5")
+	)
+	(wire
+		(pts
+			(xy 194.31 64.77) (xy 205.74 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca5bb9ca-af9f-477d-9287-a8d0765fc8ec")
+	)
+	(wire
+		(pts
+			(xy 205.74 102.87) (xy 194.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e745195f-8129-4a14-9a60-89cb3f348f71")
+	)
+	(sheet
+		(at 144.78 52.07)
+		(size 49.53 82.55)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005eff01a0")
+		(property "Sheetname" "Beaglebone Interface"
+			(at 144.78 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Beaglebone_Interface.kicad_sch"
+			(at 144.78 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RS485_UART_TX1" input
+			(at 194.31 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "724f3d40-6c07-4e28-be6e-56088aa861c5")
+		)
+		(pin "RS485_UART_RX1" input
+			(at 194.31 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "21189542-5270-425b-81f6-9240bc7ac476")
+		)
+		(pin "RS485_UART_TX2" input
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bbc1f2eb-3f94-4fed-be2d-3b0263fa0ce3")
+		)
+		(pin "RS485_UART_RX2" input
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "25739acb-3d92-41b3-97ff-feba9e87bf6c")
+		)
+		(pin "RS485_DE2" input
+			(at 194.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2887d4fe-7c61-40f9-840d-970bcdde23cf")
+		)
+		(pin "RS485_DE1" input
+			(at 194.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4ee5b12b-debf-45be-9532-3db7a15f980c")
+		)
+		(pin "RS485_SL_RATE2" input
+			(at 194.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c58d06ea-8d2c-4a47-accd-a35f8576bbad")
+		)
+		(pin "RS485_SL_RATE1" input
+			(at 194.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a80bf5ef-82a7-4b39-919b-18e2c9974cba")
+		)
+		(pin "RS485_TERM_EN1" input
+			(at 194.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c6766215-089d-4843-8a58-2cd1720c7d66")
+		)
+		(pin "RS485_RE1" input
+			(at 194.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "439e06cf-33cf-4282-8029-012b306e0cdb")
+		)
+		(pin "RS485_RE2" input
+			(at 194.31 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "06f3e37d-1802-43d8-8c62-625761b36520")
+		)
+		(pin "RS485_TERM_EN2" input
+			(at 194.31 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8fc4d659-3781-46d7-8aba-412da3ff4acd")
+		)
+		(pin "SCLK" input
+			(at 144.78 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a5e492bf-231e-4785-b2fd-d103771db405")
+		)
+		(pin "MISO" input
+			(at 144.78 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "21d0c0e2-38f3-4f3f-9f05-cc19fc5e1380")
+		)
+		(pin "MOSI" input
+			(at 144.78 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "25ce04f1-5456-4f48-8213-750c0d66a45b")
+		)
+		(pin "CS" input
+			(at 144.78 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5c132110-58bc-4f97-bd63-5e3369572164")
+		)
+		(pin "SHDN" input
+			(at 144.78 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a1a76181-3078-4ee0-b94f-0e8a565704d7")
+		)
+		(instances
+			(project "agricoltura-madre-cape"
+				(path "/e4065b0c-66d2-434f-b1b5-ef3810d5298a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 52.07)
+		(size 33.02 82.55)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005eff8157")
+		(property "Sheetname" "RS485 Interface"
+			(at 205.74 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RS485_Interface.kicad_sch"
+			(at 205.74 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RS485_UART_TX1" input
+			(at 205.74 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "09d4d36b-bd7d-44b9-bc52-ff8549c2a745")
+		)
+		(pin "RS485_UART_RX1" input
+			(at 205.74 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "84fcaf25-3a27-4fcf-a1ca-b6981db0a962")
+		)
+		(pin "RS485_UART_TX2" input
+			(at 205.74 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "57517705-ff0d-4007-96db-97055595cc8c")
+		)
+		(pin "RS485_UART_RX2" input
+			(at 205.74 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7b6f0020-8947-41ec-8c78-2d59b59454d2")
+		)
+		(pin "RS485_DE2" input
+			(at 205.74 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1324590a-9f70-4c28-827c-87f60da64442")
+		)
+		(pin "RS485_DE1" input
+			(at 205.74 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8139ae15-a7d7-4bd1-880c-de160dd4b3fe")
+		)
+		(pin "RS485_SL_RATE2" input
+			(at 205.74 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "937b2fa1-6920-47cb-9b54-75c5b5a7e437")
+		)
+		(pin "RS485_SL_RATE1" input
+			(at 205.74 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a58c5ee3-b188-4b8d-8d57-48be6939ade6")
+		)
+		(pin "RS485_TERM_EN1" input
+			(at 205.74 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2bdc96b4-1387-485d-aa0f-cbf220449486")
+		)
+		(pin "RS485_RE1" input
+			(at 205.74 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b99368f-cdf2-40d5-b403-2e82abaf5d59")
+		)
+		(pin "RS485_RE2" input
+			(at 205.74 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8ed5b8bb-17e5-4cc9-991d-fa33f72a6014")
+		)
+		(pin "RS485_TERM_EN2" input
+			(at 205.74 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ef91300c-80e3-4457-8d4d-a7f588cb7a59")
+		)
+		(instances
+			(project "agricoltura-madre-cape"
+				(path "/e4065b0c-66d2-434f-b1b5-ef3810d5298a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 52.07)
+		(size 62.23 82.55)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005f03e6ae")
+		(property "Sheetname" "915MHZ Radio/Modem"
+			(at 63.5 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sub1GHZ_Radio.kicad_sch"
+			(at 63.5 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCLK" input
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a31d17aa-3de3-45f5-9b39-46a39b6fc122")
+		)
+		(pin "MISO" input
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4d275eed-0f8b-4e44-84e8-1810f050a316")
+		)
+		(pin "MOSI" input
+			(at 125.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "da2ec99d-b6c2-4cd8-891b-2d9ee44841b6")
+		)
+		(pin "CS" input
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b55dd577-5e1e-42f3-8304-1ec749384071")
+		)
+		(pin "SHDN" input
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "be6eeea6-6ebb-4cf7-a611-52e1be31c877")
+		)
+		(instances
+			(project "agricoltura-madre-cape"
+				(path "/e4065b0c-66d2-434f-b1b5-ef3810d5298a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

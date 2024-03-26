@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name pwr_BeagleBone)(type Legacy)(uri ${KIPRJMOD}/pwr_BeagleBone.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "pwr_BeagleBone")(type "Legacy")(uri "${KIPRJMOD}/pwr_BeagleBone.lib")(options "")(descr ""))
+  (lib (name "agricoltura-madre-cape-B-rescue")(type "KiCad")(uri "${KIPRJMOD}/agricoltura-madre-cape-B-rescue.kicad_sym")(options "")(descr ""))
 )

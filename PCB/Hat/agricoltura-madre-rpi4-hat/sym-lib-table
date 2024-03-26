@@ -1,5 +1,6 @@
 (sym_lib_table
-  (lib (name ample-core-rescue)(type Legacy)(uri ${KIPRJMOD}/ample-core-rescue.lib)(options "")(descr ""))
-  (lib (name agricoltura-rpi4-hat-rescue)(type Legacy)(uri ${KIPRJMOD}/agricoltura-rpi4-hat-rescue.lib)(options "")(descr ""))
-  (lib (name agricoltura-madre-rpi4-hat-rescue)(type Legacy)(uri ${KIPRJMOD}/agricoltura-madre-rpi4-hat-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "ample-core-rescue")(type "Legacy")(uri "${KIPRJMOD}/ample-core-rescue.lib")(options "")(descr ""))
+  (lib (name "agricoltura-rpi4-hat-rescue")(type "Legacy")(uri "${KIPRJMOD}/agricoltura-rpi4-hat-rescue.lib")(options "")(descr ""))
+  (lib (name "agricoltura-madre-rpi4-hat-rescue")(type "KiCad")(uri "${KIPRJMOD}/agricoltura-madre-rpi4-hat-rescue.kicad_sym")(options "")(descr ""))
 )

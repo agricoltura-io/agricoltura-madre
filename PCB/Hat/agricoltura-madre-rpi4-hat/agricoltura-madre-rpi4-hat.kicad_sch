@@ -1,0 +1,1094 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "71596423-d72e-4851-8cc8-a1c115e6b098")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 170.18 125.73) (xy 228.6 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039a73dc-896d-4519-b0f2-417e936847b3")
+	)
+	(wire
+		(pts
+			(xy 228.6 87.63) (xy 170.18 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "060b069e-c38f-4a41-b57c-bae66a0bb3a4")
+	)
+	(wire
+		(pts
+			(xy 129.54 105.41) (xy 77.47 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e4e89e-7c84-4c17-8de9-0925e10b8d24")
+	)
+	(wire
+		(pts
+			(xy 77.47 76.2) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188a1a49-d9e4-4baf-b145-ce0f89f1df37")
+	)
+	(wire
+		(pts
+			(xy 228.6 74.93) (xy 170.18 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "392a6268-377e-4b35-8ee1-f2acf1aab96a")
+	)
+	(wire
+		(pts
+			(xy 129.54 134.62) (xy 76.2 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc7b38e-117a-4f05-a28c-e53a625da98f")
+	)
+	(wire
+		(pts
+			(xy 129.54 102.87) (xy 77.47 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bfe5b92-17b0-4e83-ac8a-394a1f1d95b5")
+	)
+	(wire
+		(pts
+			(xy 77.47 66.04) (xy 129.54 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0e5f13-0b72-4a8a-82aa-3bbe1a4e9f69")
+	)
+	(wire
+		(pts
+			(xy 228.6 69.85) (xy 170.18 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "663450ce-bfaa-41e4-9907-b2e2054970f0")
+	)
+	(wire
+		(pts
+			(xy 77.47 107.95) (xy 129.54 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c44d235-2dcc-4554-bed9-bd185570eeaa")
+	)
+	(wire
+		(pts
+			(xy 77.47 78.74) (xy 129.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd565cb-9754-40a6-9b94-0a6d478b291f")
+	)
+	(wire
+		(pts
+			(xy 228.6 85.09) (xy 170.18 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "790526e2-142b-41ab-b2f5-cebf52b6e6e5")
+	)
+	(wire
+		(pts
+			(xy 76.2 128.27) (xy 129.54 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c602c7-8c94-43d5-9b66-e610f41ef368")
+	)
+	(wire
+		(pts
+			(xy 76.2 124.46) (xy 129.54 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83399c1a-70f8-471a-8cbf-738588b0c970")
+	)
+	(wire
+		(pts
+			(xy 228.6 77.47) (xy 170.18 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d4714d-3b94-41f8-bdb6-09ade1a34cdd")
+	)
+	(wire
+		(pts
+			(xy 228.6 90.17) (xy 170.18 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b069a3a-6860-44d2-a726-71c25da65be9")
+	)
+	(wire
+		(pts
+			(xy 228.6 67.31) (xy 170.18 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff225b9-08aa-46c4-96ca-d78426dd9d3e")
+	)
+	(wire
+		(pts
+			(xy 228.6 64.77) (xy 170.18 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d064d53-c35b-4284-b328-b8a71fecb7e0")
+	)
+	(wire
+		(pts
+			(xy 129.54 81.28) (xy 77.47 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc435e2f-91a1-478d-ab27-20e806acd444")
+	)
+	(wire
+		(pts
+			(xy 228.6 92.71) (xy 170.18 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c960e1b4-771a-48ab-9309-7209d68e8dbe")
+	)
+	(wire
+		(pts
+			(xy 228.6 95.25) (xy 170.18 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8d7d52-30b7-4a14-9592-f79bd215315e")
+	)
+	(wire
+		(pts
+			(xy 228.6 128.27) (xy 170.18 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf198345-19bc-4d4d-acf5-9dd2ee9434e1")
+	)
+	(wire
+		(pts
+			(xy 228.6 72.39) (xy 170.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3651749-d287-4ac8-967e-671555140c7b")
+	)
+	(wire
+		(pts
+			(xy 76.2 138.43) (xy 129.54 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2cc2ad1-934e-4733-9436-9f10d6fbba63")
+	)
+	(wire
+		(pts
+			(xy 228.6 97.79) (xy 170.18 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c874d8-eba9-4884-ac0e-e72e4866a8b8")
+	)
+	(wire
+		(pts
+			(xy 77.47 100.33) (xy 129.54 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e85b382d-2611-48d6-8137-351eaf6fcb70")
+	)
+	(wire
+		(pts
+			(xy 77.47 71.12) (xy 129.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaadbef5-0f3c-4a52-9212-84ae3457d18a")
+	)
+	(wire
+		(pts
+			(xy 129.54 68.58) (xy 77.47 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf7772d-c380-428a-a76d-21108134185d")
+	)
+	(text "Agricoltura Madre RPi4-Hat"
+		(exclude_from_sim no)
+		(at 92.71 30.48 0)
+		(effects
+			(font
+				(size 5.0038 5.0038)
+				(thickness 1.0008)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fa45051-8eca-45fe-8104-d83a61e2a809")
+	)
+	(sheet
+		(at 228.6 115.57)
+		(size 38.1 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005e766c42")
+		(property "Sheetname" "Zigbee Radio "
+			(at 228.6 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Zigbee_Radio.kicad_sch"
+			(at 228.6 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RF_RX" input
+			(at 228.6 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d934f787-b268-4869-83d8-712dcc1abe21")
+		)
+		(pin "RF_TX" output
+			(at 228.6 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "89b38588-b55a-4961-8f91-11f6197328db")
+		)
+		(instances
+			(project "agricoltura-madre-rpi4-hat"
+				(path "/71596423-d72e-4851-8cc8-a1c115e6b098"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 119.38)
+		(size 40.64 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005e766f23")
+		(property "Sheetname" "PoE and Power Supplies"
+			(at 35.56 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POE_Power.kicad_sch"
+			(at 35.56 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "POE_VA1" input
+			(at 76.2 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dfc92d7c-c5fa-4e34-9b3d-cfca390a23ac")
+		)
+		(pin "POE_VA2" input
+			(at 76.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6f10c1a7-bce4-4598-b521-91b10d7f6882")
+		)
+		(pin "POE_VB1" input
+			(at 76.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d866378-0e96-467a-8f60-6e207cd0bc6f")
+		)
+		(pin "POE_VB2" input
+			(at 76.2 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2c7825bf-5e6a-487d-9e7b-8fe005b92266")
+		)
+		(instances
+			(project "agricoltura-madre-rpi4-hat"
+				(path "/71596423-d72e-4851-8cc8-a1c115e6b098"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 60.96)
+		(size 40.64 81.28)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005e767796")
+		(property "Sheetname" "RPi 4 Main Schematic"
+			(at 129.54 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RPi_Main.kicad_sch"
+			(at 129.54 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_SCL" output
+			(at 129.54 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d85f5e2-4fe7-4d85-8344-dd6854e577be")
+		)
+		(pin "LED_SDA" bidirectional
+			(at 129.54 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a5cf7f3f-5ace-43ab-abb2-55f6fae41088")
+		)
+		(pin "LED_RESET" input
+			(at 129.54 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "db25a7c5-1a8b-419e-9ec7-d9a1863dd630")
+		)
+		(pin "POE_VA1" output
+			(at 129.54 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3c669f5f-b900-4a01-ac07-d42237f3889b")
+		)
+		(pin "POE_VA2" output
+			(at 129.54 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b28def76-6e6d-4248-a21b-96357bfa060d")
+		)
+		(pin "POE_VB1" output
+			(at 129.54 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3480003c-c260-416a-a7c4-f50a9507ebab")
+		)
+		(pin "POE_VB2" output
+			(at 129.54 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "042acafc-c288-42bb-b00d-9e6303e00599")
+		)
+		(pin "RF_TX" output
+			(at 170.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a437095f-0231-4d2c-a4b6-e19aa99fa14e")
+		)
+		(pin "RF_RX" input
+			(at 170.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d4436b6f-1905-480b-bff0-8bc71b5b65dc")
+		)
+		(pin "RTC_SCL" input
+			(at 129.54 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f9daec35-fede-48ca-8b38-addd9d2ceda8")
+		)
+		(pin "RTC_SDA" input
+			(at 129.54 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "988789cb-b01c-47d9-baa9-8fa37a384602")
+		)
+		(pin "RTC_IRQ" input
+			(at 129.54 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4f082693-f471-4165-bbfc-2d29c59e8b13")
+		)
+		(pin "RS485_UART_TX1" input
+			(at 170.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "890d1e54-d4e4-487c-b4cb-cf6f07248622")
+		)
+		(pin "RS485_UART_RX1" input
+			(at 170.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1bd8967b-20fc-4b71-9439-76f4a02df5a2")
+		)
+		(pin "RS485_UART_TX2" input
+			(at 170.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "959787dc-ed0c-43d1-9e6e-a8570d5d87b4")
+		)
+		(pin "RS485_UART_RX2" input
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8351b24e-f187-4263-8807-60fe608dd003")
+		)
+		(pin "RS485_DE2" input
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d446ad66-9cbf-4393-9e03-8aa607ca674f")
+		)
+		(pin "RS485_DE1" input
+			(at 170.18 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f1428e4a-d234-4d27-8d87-a53550f4b00b")
+		)
+		(pin "RS485_SL_RATE2" input
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "af7640e9-053b-4ad4-883a-3efac00d3071")
+		)
+		(pin "RS485_SL_RATE1" input
+			(at 170.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dcde7765-fd8e-45f2-95cc-5c3285f8415c")
+		)
+		(pin "RS485_TERM_EN1" input
+			(at 170.18 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d3e80cd4-cf39-4315-9f86-8df22e56a3aa")
+		)
+		(pin "RS485_RE1" input
+			(at 170.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4015442b-10e2-4130-94dc-25595b70b1f1")
+		)
+		(pin "RS485_RE2" input
+			(at 170.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "36a7fd90-0047-4f61-9af5-b9a11e722131")
+		)
+		(pin "RS485_TERM_EN2" input
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7272ce35-5269-468c-aa4a-fbd2ed608a09")
+		)
+		(pin "MOSI" input
+			(at 129.54 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a3729e52-2f9a-44cf-af99-d19a89369e3e")
+		)
+		(pin "MISO" input
+			(at 129.54 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8801fb42-a18e-4e66-af11-7c8eef3e3e69")
+		)
+		(pin "SCLK" input
+			(at 129.54 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2cf068de-1928-49e3-bdf7-2c2584052655")
+		)
+		(pin "SPI_CS" input
+			(at 129.54 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "be3c4ecc-c00f-4a60-b5a0-4737f1cf22f4")
+		)
+		(instances
+			(project "agricoltura-madre-rpi4-hat"
+				(path "/71596423-d72e-4851-8cc8-a1c115e6b098"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 60.96)
+		(size 38.1 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005e76c945")
+		(property "Sheetname" "RS485 Interfaces"
+			(at 228.6 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RS485_RX_TX.kicad_sch"
+			(at 228.6 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RS485_UART_TX1" input
+			(at 228.6 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bb5e8093-8c15-4a87-b82f-e9a9d96da767")
+		)
+		(pin "RS485_UART_RX1" input
+			(at 228.6 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b659ebd1-a992-4367-8a55-9f41a787a624")
+		)
+		(pin "RS485_UART_TX2" input
+			(at 228.6 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1203fb07-93c4-4bd4-aa38-335abd9eb1be")
+		)
+		(pin "RS485_UART_RX2" input
+			(at 228.6 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "01493eca-e4f3-41d8-a971-2aac3717e21b")
+		)
+		(pin "RS485_DE2" input
+			(at 228.6 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a21dba6b-fe09-44a9-86c6-ab4e9bea8d5a")
+		)
+		(pin "RS485_DE1" input
+			(at 228.6 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "535375b6-573e-4e92-ade3-38b479851ac4")
+		)
+		(pin "RS485_SL_RATE2" input
+			(at 228.6 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "73af4b43-a591-4bdb-94d2-0ca16dcd350a")
+		)
+		(pin "RS485_SL_RATE1" input
+			(at 228.6 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9aa282ec-73eb-4583-9e47-e8519cdb4b3a")
+		)
+		(pin "RS485_TERM_EN1" input
+			(at 228.6 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "36af7382-4744-4034-9eea-25ddc20fe80e")
+		)
+		(pin "RS485_RE1" input
+			(at 228.6 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "96df308e-cf2a-4e45-a229-bae07b88abfe")
+		)
+		(pin "RS485_RE2" input
+			(at 228.6 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ce8bd616-d49b-4712-9edc-2390f1e07cba")
+		)
+		(pin "RS485_TERM_EN2" input
+			(at 228.6 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f4da06da-b6be-463b-a977-0d07d7b6c131")
+		)
+		(instances
+			(project "agricoltura-madre-rpi4-hat"
+				(path "/71596423-d72e-4851-8cc8-a1c115e6b098"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 60.96)
+		(size 41.91 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005e8884ed")
+		(property "Sheetname" "LED Indication & RTC"
+			(at 35.56 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED_RTC.kicad_sch"
+			(at 35.56 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_SCL" input
+			(at 77.47 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "881331b3-c531-4669-97cb-bae8eadb854e")
+		)
+		(pin "LED_SDA" bidirectional
+			(at 77.47 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "596033ef-e516-41e0-83b6-3d3f448b871e")
+		)
+		(pin "LED_RESET" input
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5349f177-31e2-4be8-95cb-194fb90a69d4")
+		)
+		(pin "RTC_SDA" input
+			(at 77.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0ddd8ae1-ae56-4676-a406-983cb5745b0d")
+		)
+		(pin "RTC_IRQ" input
+			(at 77.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b6f6598c-45a1-4331-9562-fef8de754062")
+		)
+		(pin "RTC_SCL" input
+			(at 77.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "020f6b84-d41b-45b4-974e-a62698687281")
+		)
+		(instances
+			(project "agricoltura-madre-rpi4-hat"
+				(path "/71596423-d72e-4851-8cc8-a1c115e6b098"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 96.52)
+		(size 41.91 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005f045bf3")
+		(property "Sheetname" "915MHZ Radio/Modem"
+			(at 35.56 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sub1GHZ_Radio.kicad_sch"
+			(at 35.56 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MOSI" input
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f48bdd5c-2ce6-4436-b547-036196be14d9")
+		)
+		(pin "MISO" input
+			(at 77.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "00b2cce0-cf94-41e6-94bf-629355f981cd")
+		)
+		(pin "SCLK" input
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d742f6cb-c53d-4415-a789-96282f488188")
+		)
+		(pin "SPI_CS" input
+			(at 77.47 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8667353b-3551-4d19-834a-c00534d33b97")
+		)
+		(instances
+			(project "agricoltura-madre-rpi4-hat"
+				(path "/71596423-d72e-4851-8cc8-a1c115e6b098"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
